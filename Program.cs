@@ -7,10 +7,10 @@ namespace cSharp_Console_Assignments
     {
         static void Main(string[] args)
         {
-            
+            BigNumber();
         }
 
-        public static void BigNumber(){
+        private static void BigNumber(){
                         Random rRandom = new Random();
             int[] numbers = new int[5];
 
