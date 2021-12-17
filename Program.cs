@@ -7,7 +7,11 @@ namespace cSharp_Console_Assignments
     {
         static void Main(string[] args)
         {
-            Random rRandom = new Random();
+            
+        }
+
+        public static void BigNumber(){
+                        Random rRandom = new Random();
             int[] numbers = new int[5];
 
             for(int i=0; i<5; i++){
@@ -19,7 +23,6 @@ namespace cSharp_Console_Assignments
 
             Console.WriteLine($"Big Number : {numbers[4]}");
             Console.ReadKey();
-            
         }
     }
 }
