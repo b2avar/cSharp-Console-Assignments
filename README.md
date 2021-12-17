@@ -1,1 +1,1 @@
-# c#-Konsol-devleri
+#  Console Assignments
