@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\bin\Debug\net5.0\cSharp-Console-Assignments.exe
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\bin\Debug\net5.0\cSharp-Console-Assignments.deps.json
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\bin\Debug\net5.0\cSharp-Console-Assignments.runtimeconfig.json
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\bin\Debug\net5.0\cSharp-Console-Assignments.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\bin\Debug\net5.0\cSharp-Console-Assignments.dll
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\bin\Debug\net5.0\ref\cSharp-Console-Assignments.dll
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\bin\Debug\net5.0\cSharp-Console-Assignments.pdb
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\obj\Debug\net5.0\cSharp-Console-Assignments.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\obj\Debug\net5.0\cSharp-Console-Assignments.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\obj\Debug\net5.0\cSharp-Console-Assignments.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\obj\Debug\net5.0\cSharp-Console-Assignments.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\obj\Debug\net5.0\cSharp-Console-Assignments.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\obj\Debug\net5.0\cSharp-Console-Assignments.dll
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\obj\Debug\net5.0\ref\cSharp-Console-Assignments.dll
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\obj\Debug\net5.0\cSharp-Console-Assignments.pdb
+D:\Users\Tednokent\CSharp\Console Assignments\cSharp-Console-Assignments\obj\Debug\net5.0\cSharp-Console-Assignments.genruntimeconfig.cache
