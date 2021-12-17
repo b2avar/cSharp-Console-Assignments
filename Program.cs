@@ -24,5 +24,11 @@ namespace cSharp_Console_Assignments
             Console.WriteLine($"Big Number : {numbers[4]}");
             Console.ReadKey();
         }
-    }
+        private static void Comment(){
+            // BigNumber(): Kullanıcının klavyeden girdiği dört sayıdan büyük olanının hangisi 
+            //              olduğunu ekrana yazan programı yazın.
+
+            
+        }
+    } 
 }
