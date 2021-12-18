@@ -39,7 +39,8 @@ namespace cSharp_Console_Assignments
             //MultiplicationTable: Kullanıcının girdiği sayıya ait çarpım tablosunu yazdıran programı hazırlayın.
             //MultiplicationTable(11);
 
-            //CreateSquare: Kullanıcının girdiği sayıya ait çarpım tablosunu yazdıran programı hazırlayın.
+            //CreateSquare: Bir kenar uzunluğu kullanıcı tarafından girildiği halde * işareti ile kare oluşturan 
+            //              programı hazırlayın.
             CreateSquare(4);
 
             Console.ReadKey();
