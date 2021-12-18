@@ -34,7 +34,10 @@ namespace cSharp_Console_Assignments
 
             /*ExponentofNumber: bir sayının (X) yine verilen i. üssünü ( Xi ), üs alma işlemini kullanmadan 
                                 hesaplayan ve ekrana yazdıran bir bilgisayar programı hazırlayınız.*/
-            Console.WriteLine(ExponentofNumber(4,4));
+            //Console.WriteLine(ExponentofNumber(4,4));
+
+            //MultiplicationTable: Kullanıcının girdiği sayıya ait çarpım tablosunu yazdıran programı hazırlayın.
+            MultiplicationTable(11);
 
             Console.ReadKey();
         }
@@ -129,6 +132,13 @@ namespace cSharp_Console_Assignments
                 result *= array[i];
             }
             return result;
+        }
+        static void MultiplicationTable(int number){
+            int multiplication;
+            for(int i = 1; i <=10; i++){
+                multiplication = number * i;
+                Console.WriteLine($"{number} x {i} = {multiplication}");
+            }
         }
     }
 } 
