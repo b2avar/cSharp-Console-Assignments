@@ -10,28 +10,31 @@ namespace cSharp_Console_Assignments
         static void Main(string[] args)
         {
             
-            /*BigNumber(): Kullanıcının klavyeden girdiği dört sayıdan büyük olanının hangisi 
+            /*BigNumber: Kullanıcının klavyeden girdiği dört sayıdan büyük olanının hangisi 
                            olduğunu ekrana yazan programı yazın. */
             //Console.WriteLine(BigNumber(new int[4]));
 
-            /*SalaryAfterFiveYear(): Bir çalışanın maaşı 1000 TL’dir ve çalıştığı şirketle 
+            /*SalaryAfterFiveYear: Bir çalışanın maaşı 1000 TL’dir ve çalıştığı şirketle 
                                     yıllık %15 artış ile anlaşmıştır. Beş yıl sonra maaşını 
                                     hesaplayan programı yazın. */
             //Console.WriteLine(SalaryAfterFiveYear(1000,0.15,5));
 
-            /*Banknote():Bir bankamatik müşterisine bankamatikten çekmek istediği para sorulacak. 
+            /*Banknote:Bir bankamatik müşterisine bankamatikten çekmek istediği para sorulacak. 
                          Çekeceği paraya göre kaç tane 200’lük, kaç tane 100’lük, kaç tane 50’lik, 
                          kaç tane 20’lik, kaç tane 10’luk, kaç tane 5’lik ve kaç tane 1'lik verilmesi 
                          gerektiğini bulan programı yazın.*/
             //Banknote(2324);
 
-            /*Factorial(): n sayısının Faktöriyelini (n!) hesaplayan ve yazdıran programı yazınız.*/
-
+            /*Factorial: n sayısının Faktöriyelini (n!) hesaplayan ve yazdıran programı yazınız.*/
             //Console.WriteLine(Factorial(8));
 
-            /* IntegerQuery(): Klavyeden girilen 20 tamsayının kaçının sıfır, kaçının tek ve kaçının 
+            /* IntegerQuery: Klavyeden girilen 20 tamsayının kaçının sıfır, kaçının tek ve kaçının 
                                çift olduğunu bulan ve yazdıran programı yazınız.*/
-            IntegerQuery();
+            //IntegerQuery();
+
+            /*ExponentofNumber: bir sayının (X) yine verilen i. üssünü ( Xi ), üs alma işlemini kullanmadan 
+                                hesaplayan ve ekrana yazdıran bir bilgisayar programı hazırlayınız.*/
+            Console.WriteLine(ExponentofNumber(4,4));
 
             Console.ReadKey();
         }
@@ -118,7 +121,15 @@ namespace cSharp_Console_Assignments
             Console.WriteLine($"There are {evenNumber} even number");
             Console.WriteLine($"There are {oddNumber} odd number");
         }
-
+        static int ExponentofNumber(int number, int exponent){
+            int result = 1;
+            int[] array = new int[exponent];
+            for(int i=0; i<array.Length; i++){
+                array[i] = number;
+                result *= array[i];
+            }
+            return result;
+        }
     }
 } 
 
