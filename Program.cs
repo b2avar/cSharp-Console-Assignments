@@ -26,7 +26,11 @@ namespace cSharp_Console_Assignments
             //Banknote(2324);
 
             /*Factorial(): n sayısının Faktöriyelini (n!) hesaplayan ve yazdıran programı yazınız.*/
-            Console.WriteLine(Factorial(8));
+            //Console.WriteLine(Factorial(8));
+
+            /* IntegerQuery(): Klavyeden girilen 20 tamsayının kaçının sıfır, kaçının tek ve kaçının 
+                               çift olduğunu bulan ve yazdıran programı yazınız.*/
+            IntegerQuery();
 
             Console.ReadKey();
         }
@@ -75,12 +79,43 @@ namespace cSharp_Console_Assignments
                 Console.WriteLine($"{banknote[i]} pieces of {bNote[i]}");
             }
         }
-
         static long Factorial(int n){
             long result = 1;
             for(int i=1; i<=n; i++)
                 result = result * i;
             return result;
+        }
+        static void IntegerQuery(){
+            int[] numbers = new int[20];
+            int zeros = 0;
+            int evenNumber = 0; 
+            int oddNumber = 0;
+
+            for(int i = 0; i<numbers.Length; i++){
+                Console.WriteLine($"{i} st number :");
+                numbers[i] = Convert.ToInt32(Console.ReadLine());
+            }
+
+            foreach(int array in numbers){
+                Console.Write($"{array},{" "}");
+            }
+            for(int j = 0; j<numbers.Length; j++){
+                    if(numbers[j]==0){
+                        zeros++;
+                    }
+                    else if(numbers[j]%2==0){
+                            evenNumber++;
+                    }
+                    else if(numbers[j]%2!=0){
+                        oddNumber++;
+                    }
+                }
+
+            Console.WriteLine();
+
+            Console.WriteLine($"There are {zeros} zero");
+            Console.WriteLine($"There are {evenNumber} even number");
+            Console.WriteLine($"There are {oddNumber} odd number");
         }
     } 
 }
