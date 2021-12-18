@@ -19,15 +19,11 @@ namespace cSharp_Console_Assignments
                                     hesaplayan programı yazın. */
             //Console.WriteLine(SalaryAfterFiveYear(1000,0.15,5));
 
-            /*Bir bankamatik müşterisine bankamatikten çekmek istediği para sorulacak. 
-                Çekeceği paraya göre kaç tane 200’lük, kaç tane 100’lük, kaç tane 50’lik, 
-                kaç tane 20’lik, kaç tane 10’luk, kaç tane 5’lik ve kaç tane 1'lik verilmesi gerektiğini 
-                bulan programı yazın.*/
-            //Banknote(2324);
-
-            
-
-
+            /*Banknote():Bir bankamatik müşterisine bankamatikten çekmek istediği para sorulacak. 
+                         Çekeceği paraya göre kaç tane 200’lük, kaç tane 100’lük, kaç tane 50’lik, 
+                         kaç tane 20’lik, kaç tane 10’luk, kaç tane 5’lik ve kaç tane 1'lik verilmesi 
+                         gerektiğini bulan programı yazın.*/
+            Banknote(2324);
 
             Console.ReadKey();
         }
@@ -47,30 +43,29 @@ namespace cSharp_Console_Assignments
             }
             return salary;
         }
-
         static void Banknote(int money){
             int[] banknote = new int[7];
             int[] bNote = new int[]{200,100,50,20,10,5,1};
 
-            banknote[0] = money / 200;
+            banknote[0] = money / bNote[0];
             money = money % 200;
 
-            banknote[1] = money / 100;
+            banknote[1] = money / bNote[1];
             money = money % 100;
 
-            banknote[2] = money / 50;
+            banknote[2] = money / bNote[2];
             money = money % 50;
 
-            banknote[3] = money / 20;
+            banknote[3] = money / bNote[3];
             money = money % 20;
 
-            banknote[4] = money / 10;
+            banknote[4] = money / bNote[4];
             money = money % 10;
 
-            banknote[5] = money / 5;
+            banknote[5] = money / bNote[5];
             money = money % 5;
 
-            banknote[6] = money / 1;
+            banknote[6] = money / bNote[6];
             money = money % 1;
 
             for(int i=0; i<banknote.Length; i++){
