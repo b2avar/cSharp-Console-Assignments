@@ -26,6 +26,7 @@ namespace cSharp_Console_Assignments
             //Banknote(2324);
 
             /*Factorial(): n sayısının Faktöriyelini (n!) hesaplayan ve yazdıran programı yazınız.*/
+<<<<<<< HEAD
             //Console.WriteLine(Factorial(8));
 
             /* IntegerQuery(): Klavyeden girilen 20 tamsayının kaçının sıfır, kaçının tek ve kaçının 
@@ -117,5 +118,63 @@ namespace cSharp_Console_Assignments
             Console.WriteLine($"There are {evenNumber} even number");
             Console.WriteLine($"There are {oddNumber} odd number");
         }
+=======
+            Console.WriteLine(Factorial(8));
+
+            Console.ReadKey();
+        }
+
+        static int BigNumber(int[] numbers){
+            for(int i=0; i<numbers.Length; i++){
+                Console.WriteLine($"{i}st number :");
+                numbers[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            return numbers.Max();
+        }
+        static double SalaryAfterFiveYear(double salary, double percent, double year){
+            double increase;
+            for(int i=1; i<=year; i++){  
+                increase = salary * percent;
+                salary = salary + increase;
+            }
+            return salary;
+        }
+        static void Banknote(int money){
+            int[] banknote = new int[7];
+            int[] bNote = new int[]{200,100,50,20,10,5,1};
+
+            banknote[0] = money / bNote[0];
+            money = money % 200;
+
+            banknote[1] = money / bNote[1];
+            money = money % 100;
+
+            banknote[2] = money / bNote[2];
+            money = money % 50;
+
+            banknote[3] = money / bNote[3];
+            money = money % 20;
+
+            banknote[4] = money / bNote[4];
+            money = money % 10;
+
+            banknote[5] = money / bNote[5];
+            money = money % 5;
+
+            banknote[6] = money / bNote[6];
+            money = money % 1;
+
+            for(int i=0; i<banknote.Length; i++){
+                Console.WriteLine($"{banknote[i]} pieces of {bNote[i]}");
+            }
+        }
+
+        static long Factorial(int n){
+            long result = 1;
+            for(int i=1; i<=n; i++)
+                result = result * i;
+            return result;
+        }
+>>>>>>> fa47715ea3a1e6a548a40ad12266b4febe271df9
     } 
 }
