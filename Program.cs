@@ -36,7 +36,6 @@ namespace cSharp_Console_Assignments
                 increase = salary * percent;
                 salary = salary + increase;
             }
-
             return salary;
         }
 
