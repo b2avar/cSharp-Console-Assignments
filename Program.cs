@@ -37,7 +37,10 @@ namespace cSharp_Console_Assignments
             //Console.WriteLine(ExponentofNumber(4,4));
 
             //MultiplicationTable: Kullanıcının girdiği sayıya ait çarpım tablosunu yazdıran programı hazırlayın.
-            MultiplicationTable(11);
+            //MultiplicationTable(11);
+
+            //CreateSquare: Kullanıcının girdiği sayıya ait çarpım tablosunu yazdıran programı hazırlayın.
+            CreateSquare(4);
 
             Console.ReadKey();
         }
@@ -138,6 +141,13 @@ namespace cSharp_Console_Assignments
             for(int i = 1; i <=10; i++){
                 multiplication = number * i;
                 Console.WriteLine($"{number} x {i} = {multiplication}");
+            }
+        }
+        static void CreateSquare(int edgeLength){
+            for(int i=0; i<edgeLength; i++){
+                Console.WriteLine();
+                for(int j=0; j<edgeLength; j++)
+                    Console.Write("*" + " ");
             }
         }
     }
