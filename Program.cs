@@ -23,7 +23,10 @@ namespace cSharp_Console_Assignments
                          Çekeceği paraya göre kaç tane 200’lük, kaç tane 100’lük, kaç tane 50’lik, 
                          kaç tane 20’lik, kaç tane 10’luk, kaç tane 5’lik ve kaç tane 1'lik verilmesi 
                          gerektiğini bulan programı yazın.*/
-            Banknote(2324);
+            //Banknote(2324);
+
+            /*Factorial(): n sayısının Faktöriyelini (n!) hesaplayan ve yazdıran programı yazınız.*/
+            Console.WriteLine(Factorial(8));
 
             Console.ReadKey();
         }
@@ -73,5 +76,11 @@ namespace cSharp_Console_Assignments
             }
         }
 
+        static long Factorial(int n){
+            long result = 1;
+            for(int i=1; i<=n; i++)
+                result = result * i;
+            return result;
+        }
     } 
 }
