@@ -26,6 +26,7 @@ namespace cSharp_Console_Assignments
             //Banknote(2324);
 
             /*Factorial(): n sayısının Faktöriyelini (n!) hesaplayan ve yazdıran programı yazınız.*/
+
             //Console.WriteLine(Factorial(8));
 
             /* IntegerQuery(): Klavyeden girilen 20 tamsayının kaçının sıfır, kaçının tek ve kaçının 
@@ -86,7 +87,7 @@ namespace cSharp_Console_Assignments
             return result;
         }
         static void IntegerQuery(){
-            int[] numbers = new int[20];
+            int[] numbers = new int[2];
             int zeros = 0;
             int evenNumber = 0; 
             int oddNumber = 0;
@@ -117,5 +118,7 @@ namespace cSharp_Console_Assignments
             Console.WriteLine($"There are {evenNumber} even number");
             Console.WriteLine($"There are {oddNumber} odd number");
         }
-    } 
-}
+
+    }
+} 
+
